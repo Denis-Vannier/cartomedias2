@@ -26,9 +26,9 @@ const config = {
         },
         {
             type: "checkbox",
-            title: "Title of filter: ",
-            columnHeader: "Column Name",
-            listItems: ["filter one", "filter two", "filter three"]
+            title: "Filtrer : ",
+            columnHeader: "Support historique",
+            listItems: ["Presse", "Radio", "Pure-player", "Télé"]
         },
         {
             type: "dropdown",
