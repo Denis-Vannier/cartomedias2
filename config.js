@@ -5,7 +5,7 @@ const config = {
     CSV: "./medias.csv",
     center: [2.778088, 47.201715], //Lng, Lat
     zoom: 5, //Default zoom
-    title: "L'info locale en France",
+    title: "Les rédactions d'info locale en France",
     description: "Recensement réalisé par Ouest Médialab pour le Festival de l'info locale<",
     sideBarInfo: ["Media", "COMMUNE", "Site_web"],
     popupInfo: ["Media"],
