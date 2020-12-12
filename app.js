@@ -449,13 +449,27 @@ map.on('load', function () {
                         type: 'geojson',
                         data: geojsonData,
                     },
-                    paint: {
-                        'circle-radius': 5, // size of circles
-                        'circle-color': '#3D2E5D', // color of circles
-                        'circle-stroke-color': 'white',
-                        'circle-stroke-width': 1,
+                   'paint': {
                         'circle-opacity': 0.7,
-                    },
+                        'circle-radius': {
+                          'base': 2,
+                          'stops': [[6, 5], [16, 70]]
+                          },
+
+                        'circle-color': [
+                        'match',
+                        ['get', 'Support historique'],
+                        'Presse',
+                        '#4E318C',
+                        'Radio',
+                        '#78C1AE',
+                        'Télé',
+                        '#4179B9',
+                        'Pure-player',
+                        '#EE765D',
+                        /* other */ '#ccc'
+                        ]
+             },
                 });
             }
         );
