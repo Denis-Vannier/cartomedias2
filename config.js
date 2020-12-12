@@ -1,6 +1,6 @@
 
 const config = {
-    style: "mapbox://styles/mapbox/light-v10",
+    style: "mapbox://styles/mille1viz/cjwuwirpd1ihr1cpcr621jklr",
     accessToken: "pk.eyJ1IjoibWlsbGUxdml6IiwiYSI6InpOVDgzYncifQ.X4JRirBXISF2yKWYTKzsNg",
     CSV: "./medias.csv",
     center: [2.778088, 47.201715], //Lng, Lat
